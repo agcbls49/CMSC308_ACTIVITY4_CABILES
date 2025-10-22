@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Made by Amazing Grace Cabiles from 3IS2</h1><br>
+    <h3>Javascript is a structurally typed but type inference is 
+        non-existent in the programming language.</h3>
+    <style>body {font-family: sans-serif;}</style>
+    <!-- Javascript starts here -->
+    <script>
+        /* Stuctural Typing is when type compatibility depends on the 
+        shape/structure of the object*/
+
+        function greet(person) {
+            console.log("Hello, " + person.name);
+        }
+
+        let user = { name: "Amaze", age: 20 };
+        let animal = { name: "Shih Shih", breed: "Shih Tzu" };
+
+        // shows Amaze
+        greet(user);
+
+        // same structure (has a 'name' property)
+        // shows Shih Shih
+        greet(animal); 
+
+        /* Type inference is true non existent in Javascript because 
+        types can be changed */
+
+        // starts as number
+        let count = 10;
+
+        // shows number
+        console.log(typeof count);
+
+        // type changes (dynamic, not inferred)
+        count = "10";
+
+        // shows string
+        console.log(typeof count);
+
+        // For console output go to: screenshots/2nominalTypeInference.png
+    </script>
+</body>
+</html>

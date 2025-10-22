@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Made by Amazing Grace Cabiles from 3IS2</h1><br>
+    <h3>Javascript is a dynamic and weakly typed programming language.</h3>
+    <style>body {font-family: sans-serif;}</style>
+    <!-- Javascript starts here -->
+    <script>
+        /* Dynamic Typing is type checking that happens at runtime. 
+         Type checking as the name suggests is when the compiler or interpreter
+         checks for the data type before runtime (compile time) or during 
+         runtime*/
+        // Programming Language Example: Python and Javacscript
+
+        // assign number to age
+        let age = 25;
+        // shows number
+        console.log(typeof age);
+
+        // change the datatype
+        age = '25';
+        // shows string because it was changed showing dynamic typing
+        console.log(typeof age);
+
+        // Weak Typing - the language converts between types automatically
+        // introduces confusion and more bugs because it is unsafe
+
+        // Shows 49
+        console.log("4" + 9);
+
+        // shows string
+        console.log(typeof ("4" + 9));
+
+        // shows 0
+        console.log("49" - 49);
+
+        // shows number
+        console.log(typeof ("49" - 49));
+
+        // For console output go to: screenshots/1dynamicWeak.png
+    </script>
+</body>
+</html>

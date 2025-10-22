@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Made by Amazing Grace Cabiles from 3IS2</h1><br>
+    <h3>Javascript Type Checking happens during runtime.</h3>
+    <style>body {font-family: sans-serif;}</style>
+    <!-- Javascript starts here -->
+    <script>
+        function add(a, b) {
+        return a + b;
+        }
+
+        // shows "510" because of string concatenation with number
+        // this happens during runtime
+        console.log(add(5, "10")); 
+        
+        // shows string
+        console.log(typeof(add(5, "10")));
+        
+        /* In languages like Java or Typescript this would produce an error
+        like this: Argument of type 'string' is not assignable to parameter 
+        of type 'number'.
+        */
+
+        /* NOTE: the Java code for all of these will clearly have 
+        differences and will be done by Cyrelle Kristin Gapit from 3IS2.
+        My use of Type Script is because it is Javascript but safer.
+        It is also runnable and faster in the browser without downloading it.*/
+
+        /* Type Script Code Link: 
+            https://www.typescriptlang.org/play/?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymA+JORUqIoAZlywqBTwXgzc3AAUDABcoJzsiNKQZPzS2bn5hQCUpXkFZKAA3oqgoE6o7GTJoADUoNIA3IoAvsEInILw7gHQ8MwZqWkArPwARACMAAzLFRV9oCoAwkgEFO4AtAnIoIVsdQXR8E4tXJwUnMyKQA
+        */
+        
+        /* For console output go to: screenshots/3typeChecking.png and
+         screenshots/TStypeChecking.png */
+    </script>
+</body>
+</html>
