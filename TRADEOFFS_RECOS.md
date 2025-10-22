@@ -3,8 +3,8 @@
 | Scenario | Static Typing | Dynamic Typing/Javascript |
 | -------- | ------- | ------- |
 | Safety | Errors are caught before runtime | Errors are only found during code execution |
-| Flexibility | Less flexible because of strict typing rules | More flexibile which allows quick prototyping |
-| Performance | Compile time is optimized which makes it faster | Type checkin is done during runtime so its slower |
+| Flexibility | Less flexible because of strict typing rules | More flexible which allows quick prototyping |
+| Performance | Compile time is optimized which makes it faster | Type checking is done during runtime so its slower |
 | Developer Experience | Better for large teams and companies | Good for beginners and quick scripting or prototyping |
 <br>
 # Language Recommendations
