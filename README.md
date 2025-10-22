@@ -1,8 +1,8 @@
 # CMSC 308 ACTIVITY 4 BY PAIR
 
->#### Made by Amazing Grace O. Cabiles <br>
->Section of Student is 3IS2 <br>
->Language used is Javascript<br>
+#### Made by Amazing Grace O. Cabiles
+#### Section of Student is 3IS2
+#### Language used is Javascript<br>
 _________________
 **In this document:**
 1. Explain the difference between static and dynamic typing, and between strong and weak typing. <br>
@@ -15,4 +15,8 @@ _________________
 2. Download the Zip File by following the steps from this [link](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github)
 3. Install Visual Studio Code and unzip the downloaded folder
 4. Open Visual Studio Code and open the unzipped folder
-5. Install the Live Server extension and ***run the html files individually*** by following this [link](https://thecodemitter.medium.com/how-to-enable-live-server-for-javascript-in-vs-code-5d245f95e004)
+5. Install the Live Server extension and ***run the html files individually*** by following this [link](https://thecodemitter.medium.com/how-to-enable-live-server-for-javascript-in-vs-code-5d245f95e004) <br>
+_________________
+**Screenshots**
+<br>
+Each Index HTML file has a screenshot of the console output and the specific image file to look at is indicated at the very end of the HTML file.
